@@ -1,0 +1,9 @@
+1.0.1:
+    - 'First version of SmallNotes.'
+    - create_tecnotrade_smallnotes_containers.php
+    - create_tecnotrade_smallnotes_notes.php
+1.0.2:
+    - 'Allow deferred binding for notes.'
+    - alter_tecnotrade_smallnotes_notes_nullable_note_container_id.php
+1.0.3:
+    - 'Abilita la traduzione del contenuto delle note con RainLab.Translate.'

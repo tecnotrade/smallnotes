@@ -1,0 +1,10 @@
+name: Note Container
+form: $/tecnotrade/smallnotes/models/notecontainer/form.yaml
+modelClass: Tecnotrade\SmallNotes\Models\NoteContainer
+defaultRedirect: tecnotrade/smallnotes/notecontainers
+create:
+    redirect: 'tecnotrade/smallnotes/notecontainers/update/:id'
+    redirectClose: tecnotrade/smallnotes/notecontainers
+update:
+    redirect: tecnotrade/smallnotes/notecontainers
+    redirectClose: tecnotrade/smallnotes/notecontainers

@@ -1,0 +1,12 @@
+list: $/tecnotrade/smallnotes/models/notecontainer/list.yaml
+modelClass: Tecnotrade\SmallNotes\Models\NoteContainer
+title: Note Containers
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'tecnotrade/smallnotes/notecontainers/update/:id'

@@ -1,0 +1,33 @@
+fields:
+    name:
+        label: Name
+        type: text
+        span: left
+    is_active:
+        label: Active
+        type: switch
+        span: right
+        default: true
+    notes:
+        label: Messaggio
+        type: repeater
+        prompt: Add note
+        titleFrom: publish_start
+        form:
+            fields:
+                content:
+                    label: Content
+                    type: richeditor
+                    span: full
+                    size: large
+                publish_start:
+                    label: Visibile dal
+                    type: datepicker
+                    mode: datetime
+                    span: left
+                publish_end:
+                    label: Fino al
+                    type: datepicker
+                    mode: datetime
+                    span: right
+                    comment: Leave empty for no end date

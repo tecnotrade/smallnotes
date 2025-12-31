@@ -1,0 +1,14 @@
+plugin:
+    name: SmallNotes
+    description: 'Plugin per la gestione di note HTML programmabili tramite date e pubblicabili tramite componente frontend.'
+    author: Tecnotrade
+    icon: oc-icon-sticky-note
+    homepage: ''
+require:
+    - RainLab.Translate
+navigation:
+    smallnotes:
+        label: 'Small Notes'
+        url: tecnotrade/smallnotes/notecontainers
+        icon: icon-sticky-note
+        order: 500
